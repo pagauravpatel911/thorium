@@ -1,8 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const route = require('./routes/route.js');
+//const logger = require("./routes/logger.js");
 const app = express();
 
+
+
+
+
+//app.use("/",logger);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', route);
