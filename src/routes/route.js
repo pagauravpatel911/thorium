@@ -473,7 +473,7 @@ const router = express.Router();
 // });
 
 
-
+//Q2
 
 
 // router.post('/players/:playerName/bookings/:bookingId', function (req, res) {
@@ -504,7 +504,7 @@ const router = express.Router();
 // module.exports = router;
 
 
-
+//Q3//
 
 
 let person = [
