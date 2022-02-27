@@ -23,7 +23,33 @@ const userSchema = new mongoose.Schema( {
     // cars: [ String  ]
 }, { timestamps: true });
 
+
+// const booksSchema = new mongoose.Schema( {
+//     Authorname : String,
+//     AuthorDetais : String,
+//     BooksDetails : {
+//         type: String,
+//         unique:true,
+//         required:true
+//     },
+//     emailId:String,
+//     gender: {
+//         type:String,
+//         enum: ["male", "female","other"]
+//     },
+
+//     age: Number
+    
+
+// },{timestamps:true});
+
+
+
+
+
+
 module.exports = mongoose.model('User', userSchema) //users
+//module.exports = mongoose.model('Authers', booksSchema)//Auther DEtails
 
 
 
